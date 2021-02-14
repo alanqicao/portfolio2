@@ -18,9 +18,10 @@ function App() {
         </Grid>
 
         <Grid item xs >
-          <Header />
           <Router>
-            <Switch>
+          <Header />
+          <div className='main_content container_shadow' >
+          <Switch>
               <Route path="/portfolio">
                 <Portfolio />
               </Route>
@@ -29,6 +30,8 @@ function App() {
                 {/* default page */}
               </Route>
             </Switch>
+          </div>
+       
           </Router>
           <Footer />
         </Grid>
