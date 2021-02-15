@@ -1,7 +1,7 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import { WebOutlined } from "@material-ui/icons";
+import { Language, WebOutlined, YouTube } from "@material-ui/icons";
 
 export default {
   name: "Qi Cao (Alan)",
@@ -124,5 +124,59 @@ export default {
       ],
     },
   ],
+  projects:[
+  {
+    tag:'React',
+    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
+    title:'React Project 1',
+    caption:'a long desritopn',
+    description:'This is my project description',
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://www.google.com',icon:<GitHubIcon/>},
+      {link:'https://www.google.com',icon:<Language/>},
+    ]
+  },
+  {
+    tag:'React',
+    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
+    title:'React Project 2',
+    caption:'a sort desritopn',
+    description:'This is my project description',
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://www.google.com',icon:<GitHubIcon/>},
+      {link:'https://www.google.com',icon:<Language/>},
+    ]
+  },
 
+  {
+    tag:'Java',
+    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
+    title:'Java Project 1',
+    caption:'a sort desritopn',
+    description:'This is my project description',
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://www.google.com',icon:<GitHubIcon/>},
+      {link:'https://www.google.com',icon:<Language/>},
+    ]
+  },
+
+
+  {
+    tag:'Python',
+    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
+    title:'Python Project 1',
+    caption:'a sort desritopn',
+    description:'This is my project description',
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://www.google.com',icon:<GitHubIcon/>},
+      {link:'https://www.google.com',icon:<Language/>},
+    ]
+  }
+
+
+]
   };
