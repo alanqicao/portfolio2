@@ -145,9 +145,9 @@ export default {
     caption:"Digital Glove Box is full stack webpage for tracking your car's information",
     description:"Digital Glove Box is a repository for your vehicle and all of its identifying information, plus the ability to add as many vehicles as you'd like. Easy access to your documents from a secure cloud-based database.",
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
-      {link:'https://github.com/alanqicao/Robinhood-Clone',icon:<GitHubIcon/>},
-      {link:'https://robinhood-ad05e.web.app/',icon:<Language/>},
+      {link:'https://www.youtube.com/watch?v=uAMlLoYLoSo',icon:<YouTube/>},
+      {link:'https://github.com/alanqicao/DigitalGloveBox',icon:<GitHubIcon/>},
+      {link:'https://my-digital-glove-box.herokuapp.com',icon:<Language/>},
     ]
   },
   {
