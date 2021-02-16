@@ -5,7 +5,7 @@ import { Language, WebOutlined, YouTube } from "@material-ui/icons";
 
 export default {
   name: "Qi Cao (Alan)",
-  title: "Full stack developer",
+  title: "Full Stack Developer",
   phone: "801-557-3216",
   email: "alanqicao@gmail.com",
   web: "https://www.alanqicao.com",
@@ -26,44 +26,44 @@ export default {
   },
 
   about:
-    "I’ve always loved to build things. Still do. To me, building violins and building software are the same — I get the chance to mold a block of wood or a line of code from the ground up into something intricate and beautiful. When it comes to debugging code or restoring violins, using creative ways to solve problems and thinking outside the box is key.\n\n\nsomting else",
+    "I’ve always loved to build things. Still do. To me, building violins and building software are the same — I get the chance to mold a block of wood or a line of code from the ground up into something intricate and beautiful. When it comes to debugging code or restoring violins, using creative ways to solve problems and thinking outside the box is key.",
   experiences:[
     {
-      title:'Work 1',
-      date:'2010 - Present',
-      description:'i woerja sdlkjf nasdfa sdfsd sdf werw sdfs sdfsd',
+      title:'Apollo String LLC -- Digital Marketing',
+      date:'2019 - Present',
+      description:'• Online Music Store. Set up online violin store and brand using Amazon and Shopify.\n• Produced and designed the digital branding with Adobe.\n• Analyzed buyer data using a third-party software to direct marketing strategies.',
 
     },
     {
-      title:'Work 2',
-      date:'2018 - 2010',
-      description:'i woerja sdlkjf nasdfa sdfsd sdf werw sdfs sdfsd',
+      title:'CMC String LLC -- Manager',
+      date:'2018 - 2019',
+      description:'• Repaired and hand-crafted violins and cellos while managing shop inventory.\n• Assisted customers with purchases.\n• Ensured customer satisfaction and shop’s quality of our work.',
 
     },
     {
-      title:'Work 3',
-      date:'Aug 2015 - Sep 2018',
-      description:'i woerja sdlkjf nasdfa sdfsd sdf werw sdfs sdfsd',
+      title:'Peter Prier & Sons Violins -- Violin Maker',
+      date:'Aug 2016 - Sep 2018',
+      description:'• Restored high-end strings instruments.\n• Coordinated client and internal shop projects and assigned them to employees.\n• Trained interns in shop processes.',
 
     },
   ],
   educations:[
     {
-      title:'school 1',
-      date:'2010 - Present',
-      description:'i woerja sdlkjf nasdfa sdfsd sdf werw sdfs sdfsd',
+      title:'Salt Lake Community College',
+      date:'',
+      description:'Associate of Science - AS, Computer Science',
 
     },
     {
-      title:'school 2',
-      date:'2018 - 2010',
-      description:'i woerja sdlkjf nasdfa sdfsd sdf werw sdfs sdfsd',
+      title:'University of Utah',
+      date:'',
+      description:'Full Stack Web Development Certificate',
 
     },
     {
-      title:'school 3',
-      date:'Aug 2015 - Sep 2018',
-      description:'i woerja sdlkjf nasdfa sdfsd sdf werw sdfs sdfsd',
+      title:'Violin Making School Of American',
+      date:'',
+      description:'Luther, Violin Making, Restoration',
 
     },
   ],
@@ -127,52 +127,91 @@ export default {
   projects:[
   {
     tag:'React',
-    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
-    title:'React Project 1',
-    caption:'a long desritopn',
-    description:'This is my project description',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1611130428/Screen_Shot_2021-01-20_at_1.08.04_AM_nz6cic.png',
+    title:'Amazon Clone',
+    caption:'Amazon Clone ia a Full-stack webpage ',
+    description:'It has login auth user order track, and third party payment system',
     links:[
       {link:'https://www.google.com',icon:<YouTube/>},
-      {link:'https://www.google.com',icon:<GitHubIcon/>},
-      {link:'https://www.google.com',icon:<Language/>},
+      {link:'https://github.com/alanqicao/Amazon-Clone-Full-stack',icon:<GitHubIcon/>},
+      {link:'https://challenge-5bcae.web.app/',icon:<Language/>},
+    ]
+  },
+
+  {
+    tag:'React',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1595620408/Screen_Shot_2020-07-24_at_1.22.56_PM_y66bgd.png',
+    title:'Digital Glove Box',
+    caption:"Digital Glove Box is full stack webpage for tracking your car's information",
+    description:"Digital Glove Box is a repository for your vehicle and all of its identifying information, plus the ability to add as many vehicles as you'd like. Easy access to your documents from a secure cloud-based database.",
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://github.com/alanqicao/Robinhood-Clone',icon:<GitHubIcon/>},
+      {link:'https://robinhood-ad05e.web.app/',icon:<Language/>},
     ]
   },
   {
     tag:'React',
-    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
-    title:'React Project 2',
-    caption:'a sort desritopn',
-    description:'This is my project description',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1611130446/Screen_Shot_2021-01-20_at_1.07.29_AM_htqmsm.png',
+    title:'NetFlix Clone',
+    caption:'NetFlix Clone has real time trading movie and movie trailer',
+    description:'This NetFlix clone page have fade in Navbar when you scroll, random trending movie in the banner, API call from other website, auto play movie trailer, and some css slow fade hover. ',
     links:[
       {link:'https://www.google.com',icon:<YouTube/>},
-      {link:'https://www.google.com',icon:<GitHubIcon/>},
-      {link:'https://www.google.com',icon:<Language/>},
+      {link:'https://github.com/alanqicao/Netflix-clone',icon:<GitHubIcon/>},
+      {link:'https://netflix-clone-32eac.web.app/',icon:<Language/>},
+    ]
+  },
+
+  {
+    tag:'React',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1613435840/Screen_Shot_2021-02-15_at_5.36.34_PM_uvsyg4.png',
+    title:'Facebook Messenger',
+    caption:'Facebook Messenger is a real time chatting App',
+    description:'Facebook Messenger is a real time chatting App has full back end support.',
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://github.com/alanqicao/Facebook-Messenger-App',icon:<GitHubIcon/>},
+      {link:'https://facebook-messenger-clone-f1b29.web.app/',icon:<Language/>},
+    ]
+  },
+
+  {
+    tag:'React',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1611602799/Screen_Shot_2021-01-25_at_12.25.15_PM_jixrip.png',
+    title:'Robinhood Clone',
+    caption:'Robinhood Clone is a React app that has real time stock market price',
+    description:'You can add share to your personal stock account.',
+    links:[
+      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://github.com/alanqicao/Robinhood-Clone',icon:<GitHubIcon/>},
+      {link:'https://robinhood-ad05e.web.app/',icon:<Language/>},
     ]
   },
 
   {
     tag:'Java',
-    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
-    title:'Java Project 1',
-    caption:'a sort desritopn',
-    description:'This is my project description',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1595626114/Screenshot_72_vzpqtq.png',
+    title:'Temperature Recording',
+    caption:'Java-DOW  Day of week temperature recording and average',
+    description:'Java-DOW  Day of week temperature recording and average',
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
-      {link:'https://www.google.com',icon:<GitHubIcon/>},
-      {link:'https://www.google.com',icon:<Language/>},
+      {link:'https://www.youtube.com/watch?v=tnslP7fmolM',icon:<YouTube/>},
+      {link:'https://github.com/alanqicao/JAVA-DOW',icon:<GitHubIcon/>},
+      {link:'',icon:<Language/>},
     ]
   },
 
 
   {
-    tag:'Python',
+    tag:'C++ ',
     image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
-    title:'Python Project 1',
-    caption:'a sort desritopn',
-    description:'This is my project description',
+    title:'BullCowGame-UnrealEngine',
+    caption:'BullCowGame is a work guessing game',
+    description:'BullCow Game is using UnrealEngine and C++',
     links:[
       {link:'https://www.google.com',icon:<YouTube/>},
-      {link:'https://www.google.com',icon:<GitHubIcon/>},
+      {link:'https://github.com/alanqicao/BullCowGame-UnrealEngine',icon:<GitHubIcon/>},
       {link:'https://www.google.com',icon:<Language/>},
     ]
   }

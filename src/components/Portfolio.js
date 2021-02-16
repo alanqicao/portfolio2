@@ -26,7 +26,7 @@ const Portfolio = () => {
       {/* title */}
       <Grid item className="section_title mb_20">
         <span> </span>
-        <h6 className="section_title_text">Portfolio</h6>
+        <h6 className="section_title_text">Projects</h6>
       </Grid>
 
       {/* Tabs */}
