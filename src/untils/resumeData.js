@@ -132,7 +132,7 @@ export default {
     caption:'Amazon Clone ia a Full-stack webpage ',
     description:'It has login auth user order track, and third party payment system',
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://youtu.be/hrDlNyh38EM',icon:<YouTube/>},
       {link:'https://github.com/alanqicao/Amazon-Clone-Full-stack',icon:<GitHubIcon/>},
       {link:'https://challenge-5bcae.web.app/',icon:<Language/>},
     ]
@@ -157,7 +157,7 @@ export default {
     caption:'NetFlix Clone has real time trading movie and movie trailer',
     description:'This NetFlix clone page have fade in Navbar when you scroll, random trending movie in the banner, API call from other website, auto play movie trailer, and some css slow fade hover. ',
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://youtu.be/CpffWWjiGKo',icon:<YouTube/>},
       {link:'https://github.com/alanqicao/Netflix-clone',icon:<GitHubIcon/>},
       {link:'https://netflix-clone-32eac.web.app/',icon:<Language/>},
     ]
@@ -170,7 +170,7 @@ export default {
     caption:'Facebook Messenger is a real time chatting App',
     description:'Facebook Messenger is a real time chatting App has full back end support.',
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://youtu.be/IvMT_thdZQ4',icon:<YouTube/>},
       {link:'https://github.com/alanqicao/Facebook-Messenger-App',icon:<GitHubIcon/>},
       {link:'https://facebook-messenger-clone-f1b29.web.app/',icon:<Language/>},
     ]
@@ -183,7 +183,7 @@ export default {
     caption:'Robinhood Clone is a React app that has real time stock market price',
     description:'You can add share to your personal stock account.',
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://youtu.be/i_8qnEzXCys',icon:<YouTube/>},
       {link:'https://github.com/alanqicao/Robinhood-Clone',icon:<GitHubIcon/>},
       {link:'https://robinhood-ad05e.web.app/',icon:<Language/>},
     ]
@@ -201,18 +201,30 @@ export default {
       {link:'',icon:<Language/>},
     ]
   },
+  {
+    tag:'Java',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1614630557/plane_bq24hy.png',
+    title:'Plane Game',
+    caption:'Try to stay alive as long as you can',
+    description:'Plane game is build in JAVA and bullet bounce back when it hit edge of window',
+    links:[
+      {link:'https://youtu.be/wbleSmpq8KY',icon:<YouTube/>},
+      {link:'https://github.com/alanqicao/Java-Plane-Project',icon:<GitHubIcon/>},
+      {link:'https://github.com/alanqicao/Java-Plane-Project',icon:<Language/>},
+    ]
+  },
 
 
   {
     tag:'C++ ',
-    image:'https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956981.jpg&fm=jpg',
+    image:'https://res.cloudinary.com/dvnkqa41b/image/upload/v1614629321/bullCow_t3og9m.png',
     title:'BullCowGame-UnrealEngine',
     caption:'BullCowGame is a work guessing game',
     description:'BullCow Game is using UnrealEngine and C++',
     links:[
-      {link:'https://www.google.com',icon:<YouTube/>},
+      {link:'https://youtu.be/5xV9Wr7DLDM',icon:<YouTube/>},
       {link:'https://github.com/alanqicao/BullCowGame-UnrealEngine',icon:<GitHubIcon/>},
-      {link:'https://www.google.com',icon:<Language/>},
+      {link:'https://github.com/alanqicao/BullCowGame-UnrealEngine',icon:<Language/>},
     ]
   }
 
