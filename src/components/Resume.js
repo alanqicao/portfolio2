@@ -1,4 +1,4 @@
-import { Grid, Paper, TextField, Typography } from "@material-ui/core";
+import { Grid, Icon, Paper, TextField, Typography } from "@material-ui/core";
 import React from "react";
 import "./Resume.css";
 import resumeData from "../untils/resumeData";
@@ -109,7 +109,7 @@ const Resume = () => {
       </Grid> */}
       {/* skill */}
       <Grid container className="section graybg pb_45 p_50">
-        <Grid item className="section_title mb_30">
+      <Grid item className="section_title mb_30">
           <span> </span>
           <h6 className="section_title_text">Skills</h6>
         </Grid>
@@ -137,7 +137,7 @@ const Resume = () => {
         </Grid>
       </Grid>
       {/* contact */}
-      <Grid container spacing={6} className="section pt_45 pb_45">
+      <Grid container  spacing={6} className="section pt_45 pb_45">
         {/* contact form left */}
         <Grid item xs={12} lg={7}>
           <Grid container>
@@ -178,7 +178,7 @@ const Resume = () => {
               <h6 className="section_title_text">Contact information</h6>
             </Grid>
             <Grid item xs={12}>
-              <Grid container>
+              <Grid container >
                 <Grid item xs={12}>
                   <Typography className="contactInfo_Item">
                     <span>Address: </span>
@@ -200,9 +200,9 @@ const Resume = () => {
               </Grid>
             </Grid>
             <Grid item xs={12}>
-              <Grid container className="contactInfo_socialsContainer">
+              <Grid container className='contactInfo_socialsContainer'>
                 {Object.keys(resumeData.socials).map((key) => (
-                  <Grid item className="contactInfo_social">
+                  <Grid item className='contactInfo_social'>
                     <a href={resumeData.socials[key].link}>
                       {resumeData.socials[key].icon}
                     </a>
