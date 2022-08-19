@@ -24,7 +24,6 @@ export default {
       icon: <LinkedInIcon />,
     },
   },
-
   about:
     "I’ve always loved to build things. Still do. To me, building violins and building software are the same — I get the chance to mold a block of wood or a line of code from the ground up into something intricate and beautiful. When it comes to debugging code or restoring violins, using creative ways to solve problems and thinking outside the box is key.",
   experiences: [
